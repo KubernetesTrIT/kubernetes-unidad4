@@ -1,0 +1,6 @@
+Los ejercicios de curso de kubernetes deben estar en formato yaml, en ficheros separados.
+En caso de que no tengas que realizar un tipo de tarea que disponga ficheros se puede subir las imagenes en un PDF.
+
+1. Crear un backup de lo que hemos realizado anteriormente y aplicar la configuracion exportada del deployment en otro namespace llamado restore.
+2. Despliega jenkins, para ello tendrás que crear un namespace llamado CI, un persistent volume y un persistent volume claim
+   Muestra una imagen de la aplicacion funcionando y lo creado en el namespace de kubernetes kubectl get all -owide -n ci
